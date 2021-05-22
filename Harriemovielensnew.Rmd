@@ -2,7 +2,7 @@
 title: "Movielensproject"
 author: "Harrie Jonkman"
 date: "5/13/2021"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
