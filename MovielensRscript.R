@@ -57,8 +57,8 @@ edx <- rbind(edx, removed)
 rm(dl, ratings, movies, test_index, temp, movielens, removed)
 
 # Because this took a while every time, for myself I used the downloaded dataset in my projectmap.
-# load(file = edx.Rdata)
-# load(file = validation.Rdata)
+# load("edx.Rdata")
+# load("validation.Rdata")
 
 validation_CM <- validation  
 validation <- validation %>% select(-rating)

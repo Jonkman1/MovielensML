@@ -453,8 +453,8 @@ edx &lt;- rbind(edx, removed)
 rm(dl, ratings, movies, test_index, temp, movielens, removed)
 </code></pre>
 <p>Because this took a while every time, for myself I used the downloaded dataset in my projectmap.</p>
-<pre class="r"><code>load(file = &quot;edx.Rdata&quot;)
-load(file = &quot;validation.Rdata&quot;)</code></pre>
+<pre class="r"><code>load(&quot;edx.Rdata&quot;)
+load(&quot;validation.Rdata&quot;)</code></pre>
 <p>Validation dataset can be further modified by removing rating column</p>
 <pre class="r"><code>validation_CM &lt;- validation  
 validation &lt;- validation %&gt;% select(-rating)</code></pre>

@@ -1,2 +1,2 @@
 # MovielensML
-Machine learning capstone course of Modern Data Course of the Harvard University
+Machine learning capstone course of Modern Data Course of the Harvard University. 
